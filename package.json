@@ -1,6 +1,8 @@
 {
   "name": "ember-cli-place-kitten",
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "description": "ember-cli addon to get a placeholder image from http://placekitten.com",
+  "main": "index.js",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -10,12 +12,19 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "https://github.com/stefanpenner/ember-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codepreneur/ember-cli-place-kitten.git"
+  },
+  "homepage": "https://github.com/codepreneur/ember-cli-place-kitten",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "codepreneur",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codepreneur/ember-cli-place-kitten/issues"
+  },
   "devDependencies": {
     "body-parser": "^1.2.0",
     "broccoli-asset-rev": "0.3.1",
