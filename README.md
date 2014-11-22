@@ -1,25 +1,18 @@
 # Ember-cli-place-kitten
 
-This README outlines the details of collaborating on this Ember addon.
+ember-cli addon to get a placeholder image from http://placekitten.com
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```
+npm install ember-cli-place-kitten --save
+```
 
-## Running
+## How to use
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+The addon includes a component in your application, consume it like
+```
+{{place-kitten width=200 length=200}}
+```
 
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+By default width and length are 100.
