@@ -12,7 +12,7 @@ npm install ember-cli-place-kitten --save
 
 The addon includes a component in your application, consume it like
 ```
-{{place-kitten width=200 length=200}}
+{{place-kitten width=200 height=200}}
 ```
 
-By default width and length are 100.
+By default width and height are 100.

@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-place-kitten",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ember-cli addon to get a placeholder image from http://placekitten.com",
   "main": "index.js",
   "directories": {
